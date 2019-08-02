@@ -1,0 +1,1 @@
+export { Bell } from './icon/homePage/Bell';

@@ -1,1 +1,0 @@
-export Bell from 'src/icon/homePage/Bell';

@@ -2,7 +2,7 @@
   "name": "demosvg",
   "version": "1.0.1",
   "description": "demo svg package",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guchaocharlie/DemoSVG.git"
