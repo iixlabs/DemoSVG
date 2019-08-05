@@ -26,12 +26,14 @@
     "webpack": "^2.6.1"
   },
   "scripts": {
+    "svrg": "npx @svgr/cli asset/ --out-dir src/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "npm run build:lib && npm run build:esm && npm run build:umd",
     "build:umd": "rollup -c",
     "build:lib": "babel src --out-dir lib --ignore src/__tests__/",
-    "build:esm": "cross-env BABEL_ENV=esm-dir babel src --out-dir es --ignore src/__tests__/"
+    "build:esm": "cross-env BABEL_ENV=esm-dir babel src --out-dir es --ignore src/__tests__/",
+    "compile": "npm run svrg && npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -45,6 +47,7 @@
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.0.4",
     "cross-env": "^2.0.0",
+    "react-svg-loader": "^3.0.3",
     "rollup": "^1.0.0",
     "rollup-plugin-babel": "^4.2.0",
     "rollup-plugin-babel-minify": "^6.2.0",

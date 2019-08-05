@@ -18,6 +18,12 @@ module.exports = {
                         presets: ['env']
                     }
                 }
+            },
+            {
+                loader: 'react-svg-loader',
+                options: {
+                    jsx: true // true outputs JSX tags
+                }
             }
         ]
     },
