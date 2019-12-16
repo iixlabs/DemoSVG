@@ -7,9 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/guchaocharlie/DemoSVG.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "keywords": [
     "demo",
     "svg"
