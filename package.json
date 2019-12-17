@@ -1,6 +1,6 @@
 {
   "name": "demosvg",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "demo svg package",
   "main": "lib/index.js",
   "repository": {
