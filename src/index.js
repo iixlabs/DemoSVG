@@ -1,2 +1,3 @@
-export Bell from './icon/homePage/Bell';
-export Bell2 from './icon/Bell2';
+export Bell from './icon/FaSolidBell';
+export Bookmark from './icon/FaSolidBookmark';
+export Comments from './icon/FaSolidComments';
