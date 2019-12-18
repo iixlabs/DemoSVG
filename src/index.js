@@ -1,3 +1,3 @@
-export Bell from './icon/FaSolidBell';
-export Bookmark from './icon/FaSolidBookmark';
-export Comments from './icon/FaSolidComments';
+export Bell from './icon/FaSolidBellO';
+export Bookmark from './icon/FaSolidBookmarkO';
+export Comments from './icon/FaSolidCommentsO';
